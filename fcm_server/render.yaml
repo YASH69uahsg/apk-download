@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: child-fcm-listener
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: ALERT_EMAIL
+        value: pandityesh45@gmail.com
+      - key: ADMIN_PARENT_UID
+        value: wWnAwJ0MPsfeU6eXbMHeQNjSuWy1
