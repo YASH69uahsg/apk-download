@@ -53,14 +53,18 @@
         </p>
 
         <!-- APK Info -->
-        <div class="flex justify-center gap-4 mb-8 text-sm">
+        <div class="flex flex-wrap justify-center gap-3 mb-8 text-xs sm:text-sm">
 
-            <div class="bg-slate-800/50 px-3 py-1 rounded-full border border-slate-700">
-                <span class="text-slate-500">Latest:</span> v1.1
+            <div class="bg-slate-800/50 px-3 py-1.5 rounded-full border border-slate-700">
+                <span class="text-slate-400">Architecture:</span> <span class="text-emerald-400 font-semibold">arm64-v8a</span>
             </div>
 
-            <div class="bg-slate-800/50 px-3 py-1 rounded-full border border-slate-700">
-                <span class="text-slate-500">APK Size:</span> 164 MB
+            <div class="bg-slate-800/50 px-3 py-1.5 rounded-full border border-slate-700">
+                <span class="text-slate-400">Child:</span> <span class="text-white font-semibold">~93 MB</span>
+            </div>
+
+            <div class="bg-slate-800/50 px-3 py-1.5 rounded-full border border-slate-700">
+                <span class="text-slate-400">Parent:</span> <span class="text-white font-semibold">~76 MB</span>
             </div>
 
         </div>
@@ -68,20 +72,31 @@
         <!-- Download Buttons -->
         <div class="space-y-4">
 
-            <!-- Child APK 1 -->
-            <a href="./child_app_normal_v2.apk"
-               class="inline-block w-full py-4 px-8 bg-green-500 hover:bg-green-400 text-white font-bold rounded-xl shadow-lg shadow-green-900/20 transition-all active:scale-95 text-lg">
-
-                Download Child App (Normal) V2
-
+            <!-- Parent App -->
+            <a href="./parent-app-release.apk"
+               class="inline-flex items-center justify-center gap-2 w-full py-4 px-6 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-900/30 transition-all active:scale-95 text-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+                <span>Download Parent App (v2.0)</span>
             </a>
 
-            <!-- Child APK 2 -->
+            <!-- Child APK 1 (Normal) -->
+            <a href="./child_app_normal_v2.apk"
+               class="inline-flex items-center justify-center gap-2 w-full py-4 px-6 bg-gradient-to-r from-emerald-600 to-green-500 hover:from-emerald-500 hover:to-green-400 text-white font-bold rounded-xl shadow-lg shadow-green-900/20 transition-all active:scale-95 text-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+                </svg>
+                <span>Download Child App (Normal) V2</span>
+            </a>
+
+            <!-- Child APK 2 (Auto) -->
             <a href="./child_app_auto_v2.apk"
-               class="inline-block w-full py-4 px-8 bg-blue-500 hover:bg-blue-400 text-white font-bold rounded-xl shadow-lg shadow-blue-900/20 transition-all active:scale-95 text-lg">
-
-                Download Child App (Auto) V2
-
+               class="inline-flex items-center justify-center gap-2 w-full py-4 px-6 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold rounded-xl shadow-lg shadow-blue-900/20 transition-all active:scale-95 text-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <span>Download Child App (Auto) V2</span>
             </a>
 
         </div>
