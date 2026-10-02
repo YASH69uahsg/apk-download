@@ -1,13 +1,14 @@
 {
   "parent_app": {
-    "version_code": 2,
-    "version_name": "1.0.1",
+    "version_code": 3,
+    "version_name": "1.0.2",
     "apk_url": "https://raw.githubusercontent.com/YASH69uahsg/apk-download/main/parent-app-release.apk",
-    "changelog": "Clean UI: Channel IDs and manual update controls removed, In-App Auto Updater added."
+    "changelog": "WebRTC P2P Live Camera, Screen Mirror & Audio with ultra-low latency (<15ms touch response) & 66MB lighter."
   },
   "child_app": {
-    "version_code": 2,
-    "version_name": "2.0.0",
-    "apk_url": "https://raw.githubusercontent.com/YASH69uahsg/apk-download/main/child_app_auto_v2.apk"
+    "version_code": 3,
+    "version_name": "2.1.0",
+    "apk_url": "https://raw.githubusercontent.com/YASH69uahsg/apk-download/main/child_app_auto_v2.apk",
+    "changelog": "WebRTC P2P streaming, zero Agora overhead, 32MB lightweight build with real-time remote touch."
   }
 }
