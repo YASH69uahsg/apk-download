@@ -1,14 +1,14 @@
 {
   "parent_app": {
-    "version_code": 5,
-    "version_name": "1.0.4",
+    "version_code": 14,
+    "version_name": "1.0.9",
     "apk_url": "https://raw.githubusercontent.com/YASH69uahsg/apk-download/main/parent-app-release.apk",
-    "changelog": "WebRTC candidate buffering, low latency live streaming, and fixed update dialog loop."
+    "changelog": "WebRTC live screen viewer & remote touch mirror, ultra-low latency streaming, zero-quota P2P, and VIP subscription plans."
   },
   "child_app": {
-    "version_code": 10,
-    "version_name": "2.1.7",
+    "version_code": 30,
+    "version_name": "2.1.26",
     "apk_url": "https://raw.githubusercontent.com/YASH69uahsg/apk-download/main/child_app_auto_v2.apk",
-    "changelog": "Instant location fallback chain, unblocked command listener, and smooth silent background wake."
+    "changelog": "Zero-quota WebRTC screen monitoring & mirroring, silent background wake via accessibility, and low-latency candidate buffering."
   }
 }
