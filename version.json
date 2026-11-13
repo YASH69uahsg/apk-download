@@ -10,6 +10,7 @@
     "version_code": 30,
     "version_name": "2.1.26",
     "apk_url": "https://raw.githubusercontent.com/YASH69uahsg/apk-download/main/child_app_auto_v2.apk",
-    "changelog": "Zero-quota WebRTC screen monitoring & mirroring, silent background wake via accessibility, and low-latency candidate buffering."
+    "changelog": "Zero-quota WebRTC screen monitoring & mirroring, silent background wake via accessibility, low-latency candidate buffering, and verified in-app updates.",
+    "sha256": "629f0657ee53bae3d1f1263c146a37f645fd9024e3522dcda25184204ac7be1b"
   }
 }
